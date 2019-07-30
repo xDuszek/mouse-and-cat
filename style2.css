@@ -1,0 +1,253 @@
+body{
+    background-color: rgb(139, 32, 240);
+}
+
+#container{
+    width: 1000px;
+    height: 1000px;
+    background-color: rgb(139, 32, 240);
+    border: 1px solid black;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+#mysz{
+    width: 60%;
+    height: 60%;
+    background-color: rgb(139, 32, 240);
+    border-radius: 50%;
+    position: absolute;
+    top: 21%;
+    left: 19%;
+    animation: obrot 5800ms linear infinite;
+}
+
+#mysz:before {
+    content:'';
+    width:50px;
+    height:60px;
+    border-radius: 50px;
+    background-color:white;
+    position: absolute;
+    transform: rotate(45deg);
+
+}
+
+@keyframes obrot
+{
+    0% { transform:rotate(0deg); }
+    100% { transform:rotate(-360deg); }
+}
+
+
+#ucho{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    top: 6%;
+    left: 4%;
+}
+#ucho3{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    top: 1%;
+    left: -3%;
+}
+
+#dziób{
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid white;
+    transform: rotate(35deg);
+    position: absolute;
+    top: 7%;
+    left: -3%;
+}
+#ogon{
+    border-left: 500px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 10px solid white;
+    animation:cubic-bezier(0,1,0.34,0.87, 0);
+    position: absolute;
+    top: -25%;
+    left:-10%;
+    transform: rotate(135deg);    
+}
+
+
+#kot{
+    width: 40%;
+    height: 40%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+50,e1e1e1+51,f6f6f6+100;White+Gloss+%231 */
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgb(255,255,255) 0%, rgb(241,241,241) 50%, rgb(225,225,225) 51%, rgb(246,246,246) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgb(255,255,255) 0%,rgb(241,241,241) 50%,rgb(225,225,225) 51%,rgb(246,246,246) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgb(179, 176, 176) 0%, rgb(179, 176, 176) 50%,rgb(246,246,246) 51%,rgb(246,246,246) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius: 50% 50% 170px 170px;
+    position: relative;
+    top: 30%;
+    left: 30%;
+}
+
+
+#oko2{
+    width: 37%;
+    height: 37%;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 10%;
+    top: 22%;
+    animation: obrot 6s linear infinite;
+}
+
+#oko2:before {
+    content:'';
+    width:35px;
+    height:35px;
+    border-radius: 50px;
+    background-color:black;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 50%;
+    left: 10%;
+
+}
+
+#oko1{
+    width: 37%;
+    height: 37%;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 10%;
+    top: 22%;
+    animation: obrot 6s linear infinite;
+}
+#oko1:before {
+    content:'';
+    width:35px;
+    height:35px;
+    border-radius: 50px;
+    background-color:black;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 50%;
+    left: 10%;
+
+}
+
+
+    @keyframes obrot
+    {
+        0% { transform:rotate(0deg); }
+        100% { transform:rotate(-360deg); }
+    }    
+
+
+#nos{
+    width: 25%;
+    height: 12%;
+    background-color: rgb(101,101,101);
+    clear:both ;
+    border-radius: 50% 50% 100px 100px;
+    position: absolute;
+    left: 150px;
+    bottom: 40%;
+
+}
+
+#podnos{
+    width: 15px;
+    height: 70px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#8d8d8d+0,7b7b7b+50,646464+51,656565+100 */
+    background: rgb(141,141,141); /* Old browsers */
+    background: -moz-linear-gradient(top,   rgb(101,101,101) 0%,rgb(101,101,101) 60%,rgb(141,141,141) 51%,rgb(141,141,141) 100%);/* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgb(101,101,101) 0%,rgb(101,101,101) 60%,rgb(141,141,141) 51%,rgb(141,141,141) 100%); /* Chrome10-25,Safari5.1-6 */
+
+    background: linear-gradient(to bottom,  rgb(101,101,101) 0%,rgb(101,101,101) 50%,rgb(141,141,141) 51%,rgb(141,141,141) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    position: absolute;
+    left: 192px;
+    bottom: 25%;
+
+}
+#usta{
+
+    width: 22%;
+    height: 10%;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    background-color: rgb(141,141,141);
+    left: 155PX;
+    bottom: 18%;
+}
+#usta2{
+
+    width: 14%;
+    height: 6%;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    background-color: white;
+    left: 170px;
+    bottom: 20%;
+}
+#powieka1{
+    width: 37%;
+    height: 19%;
+    background-color: rgb(179, 176, 176);
+    border-radius: 90px 90px 0 0;
+    position: absolute;
+    left: 40px;
+    top: 85px;
+    animation: długość 1s infinite alternate;
+    animation-timing-function: linear;
+}
+
+#powieka2{
+    width: 37%;
+    height: 19%;
+    background-color:rgb(246,246,246);
+    border-radius: 90px 90px 0 0;
+    position: absolute;
+    right: 40px;
+    top: 22%;
+    animation: długość 1s infinite alternate;
+    animation-timing-function: linear;
+   
+}
+
+@keyframes długość
+{
+    0% { height: 0px; }
+    100% {height: 80px; }
+}
+
+
+#ucho1{
+
+    border-left: 0px solid transparent;
+    border-right: 131px solid transparent;
+    border-bottom: 150px solid rgb(179, 176, 176);
+    transform: rotate(-140deg);
+    position: absolute;
+    left:-16%;
+}
+#ucho2{
+
+    border-left: 131px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 150px solid rgb(246,246,246);
+    transform: rotate(140deg);
+
+    position: absolute;
+    right: -16%;
+}
+
+    
